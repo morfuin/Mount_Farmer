@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h2>World of Warcraft Mount Farmer</h2>
+    <p class="lead">World of Warcraft Mount Farmer providers an easy way to check what your most common missing mounts are.</p>
+</div>
+
+By inputting your character name and realm this site will retrieve the list of mounts you have obtained and compare it against the <a href={{ url_for('model') }}>Mount Model</a>.
+
+<form action="" method="post" name="submit">
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Character Name</h3>
+            <p>
+                {{chars_form.hidden_tag()}}
+                {{chars_form.charname}}
+            </p>
+        </div>
+        <div class="col-md-3">
+            <h3>Realm</h3>
+            <p>
+                {{realms_form.hidden_tag()}}
+                {{realms_form.realm_select}}
+            </p>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <br />
+                <br />
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </p>
+        </div>
+    </div>
+</form>
+    {% endblock %}

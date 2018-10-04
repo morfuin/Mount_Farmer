@@ -1,0 +1,14 @@
+﻿<{% extends "layout.html" %}
+    {% block content %}
+
+<h2>{{ title }}.</h2>
+<h4>{{ message }}</h4>
+
+
+{% for x in model_list_len %}
+    </td><a href="#" data-wowhead="item={{model_list[x]['mount_id']}}">{{model_list[x]['mount_name']}}</a> - {{model_list[x]['mount_percent']}}<br />
+{% endfor %}
+
+
+
+{% endblock %}

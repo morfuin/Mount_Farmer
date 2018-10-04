@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mount_Farmer", "Mount_Farmer\Mount_Farmer.pyproj", "{51987F39-F09F-41D9-8B97-20F4897BE070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51987F39-F09F-41D9-8B97-20F4897BE070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51987F39-F09F-41D9-8B97-20F4897BE070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51987F39-F09F-41D9-8B97-20F4897BE070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51987F39-F09F-41D9-8B97-20F4897BE070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBC20F9E-1067-42BD-A591-9B384F421DAD}
+	EndGlobalSection
+EndGlobal
