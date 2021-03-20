@@ -13,7 +13,7 @@ Flask-WTF==0.14.2
 flup==1.0.3
 idna==2.7
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 pbr==4.2.0
 pip==6.1.1
